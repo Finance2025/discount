@@ -1,0 +1,25 @@
+class Vehicle:
+    def move(self):
+        pass
+
+class Car(Vehicle):
+    def move(self):
+        print("Driving")
+
+class Plane(Vehicle):
+    def move(self):
+        print("Flying")
+
+class Boat(Vehicle):
+    def move(self):
+        print("Sailing")
+
+# Create instances
+car = Car()
+plane = Plane()
+boat = Boat()
+
+# Call the move method
+car.move()
+plane.move()
+boat.move()
